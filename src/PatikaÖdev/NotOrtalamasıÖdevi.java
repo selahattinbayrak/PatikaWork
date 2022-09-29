@@ -33,6 +33,7 @@ public class NotOrtalamasıÖdevi {
 
         String sonuc = (notOrtalaması>=60) ? "Geçti" : "kaldı";
         System.out.println("Sonuç : "+sonuc);
+        // deneme
 
 
 
