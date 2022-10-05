@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class KullanıcıGirisi {
     public static void main(String[] args) {
         String userName,password,newPassword,talep;
-        String kullanıcıAdı="patika",parola="java123";
+        String kullanıcıAdı="Hakan",parola="Halil İbrahim";
 
         Scanner scan= new Scanner(System.in);
         System.out.print("Kullanıcı Adınız : ");
