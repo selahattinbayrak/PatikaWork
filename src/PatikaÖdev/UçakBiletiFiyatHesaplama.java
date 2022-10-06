@@ -28,7 +28,7 @@ public class UçakBiletiFiyatHesaplama {
                 yasIndirim=normalTutar*yasİndirim12_24;
                 indirimliTutar=normalTutar-yasIndirim;
             } else if (yas<65 && yas>24) {
-                indirimliTutar=normalTutar;
+                toplamTutar=normalTutar;
             } else if (yas>=65){
                 yasIndirim=normalTutar*yasİndirim65;
                 indirimliTutar=normalTutar-yasIndirim;
@@ -37,8 +37,9 @@ public class UçakBiletiFiyatHesaplama {
             }
             if (yolculukTipi==2){
                 gidisDönüşİndirimi=indirimliTutar*gidişDönüşInd;
+                toplamTutar=(indirimliTutar-gidisDönüşİndirimi)*2;
             }
-            toplamTutar=(indirimliTutar-gidisDönüşİndirimi)*2;
+
 
         }else {
             isError=true;
