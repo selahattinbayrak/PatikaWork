@@ -1,4 +1,4 @@
-package PatikaÖdev.Döngüler;
+package Döngüler;
 
 import java.util.Scanner;
 
