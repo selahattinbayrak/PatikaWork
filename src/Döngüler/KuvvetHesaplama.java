@@ -16,13 +16,15 @@ public class KuvvetHesaplama {
 
         for (int i = 1; i <=n; i*=4) {
             sayac+=1;
-           System.out.println("4^"+sayac+"="+i);
+           System.out.println("4^"+(sayac-1)+"="+i);
+
+
         }
 
         System.out.println("5'in kuvvetleri");
         for (int i = 1; i <=n; i*=5) {
             sayac2 += 1;
-            System.out.println("5^" + sayac2 + "=" + i);
+            System.out.println("5^" + (sayac2-1) + "=" + i);
         }
 
     }
