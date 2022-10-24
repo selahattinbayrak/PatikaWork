@@ -17,6 +17,7 @@ public class C01_Palindrom {
     }
 
     public static void main(String[] args) {
+
         System.out.println(isPalindrom(101));
     }
 }
