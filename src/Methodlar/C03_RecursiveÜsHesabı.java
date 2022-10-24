@@ -3,7 +3,7 @@ package Methodlar;
 import java.util.Scanner;
 
 public class C03_RecursiveÜsHesabı {
-    static <k> int power(int n, int k) {
+    static int power(int n, int k) {
         if (k == 0) {
             return 1;
         }
