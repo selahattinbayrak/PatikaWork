@@ -2,7 +2,7 @@ package Methodlar;
 
 import java.util.Scanner;
 
-public class GelişmişHesapMakinası {
+public class C02_GelişmişHesapMakinası {
     static void plus() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Kaç adet sayı gireceksiniz :");
